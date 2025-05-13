@@ -15,3 +15,62 @@
   <p>Begin access? Navigate to <code>/login</code></p>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Secure Login</title>
+  <style>
+    body { background-color: black; color: #0f0; font-family: monospace; padding: 2em; }
+    label, input { display: block; margin-top: 1em; }
+  </style>
+</head>
+<body>
+  <h1>SECURE TERMINAL ACCESS</h1>
+  <form action="/echo13">
+    <label>ENTER ACCESS CODE:</label>
+    <input type="password" name="code" required />
+    <button type="submit">SUBMIT</button>
+  </form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Echo-13 Files</title>
+  <style>
+    body { background-color: #111; color: #0f0; font-family: monospace; padding: 2em; }
+    h2 { color: red; }
+  </style>
+</head>
+<body>
+  <h2>ECHO-13 : MISSION DOSSIER</h2>
+  <ul>
+    <li><a href="#">FILE-001.pdf</a></li>
+    <li><a href="#">IMG_REDACTED.jpg</a></li>
+    <li><a href="#">AUDIO_LOG.mp3</a></li>
+  </ul>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Deleted Files</title>
+  <style>
+    body { background-color: black; color: gray; font-family: monospace; padding: 2em; }
+  </style>
+</head>
+<body>
+  <h2>RECOVERABLE FILES - OPERATION /WIPE</h2>
+  <ul>
+    <li>RECOVER_INIT.LOG — [damaged]</li>
+    <li>UNKNOWN.DOCX — [pending decryption]</li>
+    <li>🔒 TRACE.MP4 — [restricted]</li>
+  </ul>
+</body>
+</html>
