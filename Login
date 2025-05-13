@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Secure Login</title>
+  <style>
+    body { background-color: black; color: #0f0; font-family: monospace; padding: 2em; }
+    label, input { display: block; margin-top: 1em; }
+  </style>
+</head>
+<body>
+  <h1>SECURE TERMINAL ACCESS</h1>
+  <form action="/echo13">
+    <label>ENTER ACCESS CODE:</label>
+    <input type="password" name="code" required />
+    <button type="submit">SUBMIT</button>
+  </form>
+</body>
+</html>
